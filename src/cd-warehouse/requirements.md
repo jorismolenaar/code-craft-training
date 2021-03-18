@@ -11,12 +11,13 @@
 The following actions are identified.
 
 ## Buy:
-- [ ] Payment successful
-- [ ] Payment declined
+- [x] Payment successful
+- [x] Payment declined
+- [x] Stock insufficient 
 
 ## Search:
-- [ ] Matching title and artist
-- [ ] No match
+- [x] Match with title and artist
+- [x] No match
 
 ## Receive:
 - [ ] Cd with existing title is added to warehouse
