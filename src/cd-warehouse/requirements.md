@@ -10,20 +10,20 @@
 # Test-List
 The following actions are identified.
 
-## Search:
-- return multiple cds
-- return zero cds
-- return one cd
-
 ## Buy:
-- return payment successful
-- return payment declined
+- [ ] Payment successful
+- [ ] Payment declined
 
-## Review:
-- return failed rating in case the cd does not exist
-- return success when rating and text are applied
+## Search:
+- [ ] Matching title and artist
+- [ ] No match
 
 ## Receive:
-- return that one cd is received
-- return that multiple cds are received
-- return add to cds that are already on stock
+- [ ] Cd with existing title is added to warehouse
+- [ ] Cd with new title is added to warehouse
+- [ ] Multiple cds with multiple titles are received
+
+## Review:
+- [ ] Only rating is applied
+- [ ] Rating and review are applied
+

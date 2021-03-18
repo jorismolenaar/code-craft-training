@@ -5,7 +5,7 @@ export class PaymentProvider {
         this.payment = payment;
     }
 
-    performPayment(): boolean {
+    processPayment(price: number): boolean {
     return this.payment;
   }
 }
