@@ -10,10 +10,15 @@
 # Test-List
 The following actions are identified.
 
+## Price
+- [x] We need to check if it is in Top 100
+- [x] If so beat competitor price by 1Eur.
+
 ## Buy:
 - [x] Payment successful
 - [x] Payment declined
-- [x] Stock insufficient 
+- [x] Stock insufficient
+- [x] Notify charts that X copies of CD Y have been sold
 
 ## Search:
 - [x] Match with title and artist
