@@ -8,7 +8,7 @@ module.exports = function (wallaby) {
             type: 'node',
         },
         setup: function (wallaby) {
-            var jestConfig = require('./jest.json');
+            var jestConfig = require('./jest.conf.json');
             /* for example:
              * jestConfig.globals = { "__DEV__": true }; */
             wallaby.testFramework.configure(jestConfig);

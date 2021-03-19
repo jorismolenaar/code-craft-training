@@ -24,5 +24,9 @@ junit-*.xml
 /platforms
 /plugins
 /www
+/reports
 *.generated.json
 .vs
+
+# stryker temp files
+.stryker-tmp
